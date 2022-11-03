@@ -17,7 +17,6 @@ public class Main {
             if (!membersBTS1.contains(membersBTS[i])) {
                 membersBTS1.add(membersBTS[i]);
             }
-
         }
         membersBTS = membersBTS1.toArray(new String[membersBTS1.size()]);
         System.out.println(Arrays.toString(membersBTS));
